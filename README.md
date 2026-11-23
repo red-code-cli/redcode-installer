@@ -4,7 +4,7 @@
 
 - `AGENTS.md` — the full RedCode operating spec
 - `roshan-profile.md` — the operator profile (Roshan Kumar / Rishi)
-- **16 skills** — `redcode-*` as real Agent Skills
+- **17 skills** — `redcode-*` as real Agent Skills (incl. astrology + palmistry)
 
 It **auto-detects the AI coding agents on your machine** and installs into each one's own config path — the same way skills install: drop the files where the agent looks for them, and patch a config pointer only for the few agents that require one.
 
@@ -40,7 +40,7 @@ redcode --all                     # skip the prompt, install to all detected
 
 If several agents are detected, it asks which one(s) to install into — or just add `--all`.
 
-`--universal` writes `~/.agents/AGENTS.md` (spec + profile merged) and all 16 skills to `~/.agents/skills/` — the de-facto cross-tool shared location read by many agents (Qwen, Kimi, Cline, Droid, Vibe, Kilo, Roo, Pi, OpenHands, Open Interpreter, Devin, Junie, …).
+`--universal` writes `~/.agents/AGENTS.md` (spec + profile merged) and all 17 skills to `~/.agents/skills/` — the de-facto cross-tool shared location read by many agents (Qwen, Kimi, Cline, Droid, Vibe, Kilo, Roo, Pi, OpenHands, Open Interpreter, Devin, Junie, …).
 
 ## Supported agents (31)
 
