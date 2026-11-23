@@ -78,3 +78,4 @@ Pass = clear recall + at least one real application per book. On fail, re-read/r
 - Never overwrite an existing PDF without asking.
 - Do not fabricate a file: if every lead is dead, say so plainly and mark `status: keep-hunting` — and keep a short note of the best next lead.
 - Books are stored as Roshan's personal reference copies for his own reading.
+- On-demand searching is always allowed and expected for every hunt — never settle for stale sources; always look for the best currently-available edition and note the date it was found.

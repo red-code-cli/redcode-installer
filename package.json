@@ -1,6 +1,6 @@
 {
   "name": "redcode",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "Global installer for the RedCode operating spec, the Roshan profile, and all 19 redcode-* skills (incl. astrology & palmistry, banned-books library, rahasya). Auto-detects 31 AI coding agents (OpenCode, Claude Code, Codex, Antigravity, Gemini, Copilot, Cursor, Aider, Goose, Amp, Kiro, Qwen, Kimi, Cline, Crush, Mistral Vibe, Factory Droid, Hermes, Pi, OpenHands, Kilo, Roo, Continue, Amazon Q, Open Interpreter, SWE-agent, Devin, Jules, Junie, Windsurf, OpenClaw) and installs into each agent's own config paths, skills-style. One command, any machine.",
   "keywords": ["opencode", "codex", "claude-code", "agent", "skills", "redcode", "setup", "installer", "astrology", "palmistry", "antigravity", "gemini", "copilot", "cursor", "aider", "goose", "qwen", "kimi", "cline", "crush", "vibe", "droid", "hermes", "pi", "openhands", "kilo", "roo", "continue", "amazon-q", "interpreter", "swe-agent", "devin", "jules", "junie", "windsurf", "openclaw"],
   "bin": {
