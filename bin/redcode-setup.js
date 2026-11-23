@@ -38,6 +38,7 @@ const readline = require('readline');
 const { execSync } = require('child_process');
 
 const PKG_ROOT = path.resolve(__dirname, '..');
+const pkg = require(path.join(PKG_ROOT, 'package.json'));
 const TEMPLATES = path.join(PKG_ROOT, 'templates');
 const SPEC_SRC = path.join(TEMPLATES, 'AGENTS.md');
 const PROFILE_SRC = path.join(TEMPLATES, 'roshan-profile.md');
@@ -831,6 +832,7 @@ function parseArgs(argv) {
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') opts.dryRun = true;
+    else if (a === '--version' || a === '-v') { console.log(pkg.version); process.exit(0); }
     else if (a === '--force') opts.force = true;
     else if (a === '--no-backup') opts.noBackup = true;
     else if (a === '--quiet') opts.quiet = true;
