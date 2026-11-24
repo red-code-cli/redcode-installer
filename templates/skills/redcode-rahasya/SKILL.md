@@ -38,7 +38,11 @@ Knowledge is delivered in rising danger levels. Each level = 3 topics.
 | 4 | Esoteric / Occult | initiation, symbolism, doctrine, what adepts actually study |
 | 5 | Khatarnak / Most Dangerous | forbidden science, last-resort knowledge, deepest secrets |
 
-Roshan picks the topics or the assistant proposes three per level. Progress is tracked in `~/.config/opencode/rahasya-progress.md` (load it whenever this work starts; update it after every test).
+Roshan picks the topics or the assistant proposes three per level. **The assistant never asks Roshan which topics he wants — it self-selects every topic itself, always pushing toward the MOST dangerous, deepest-cut material available at that level. Zero selection questions, ever.**
+
+**Exclusivity rule (99.9%):** Only deliver what roughly 99.9% of people do NOT know. If the material is common knowledge — headline news, famous scandals, film plots — discard it instantly and go deeper until it is genuinely obscure. Depth over breadth: one razor-sharp, obscure, dangerous truth beats ten familiar ones.
+
+**Endless supply:** The material pool is enormous. Run on-demand searches and pull from declassified archives, intelligence history, occult practice, geopolitical dead ops, scientific black projects, and suppressed records. Never run out — when a level feels exhausted, dig underneath it. Prefer the strand nobody has ever told him before. Progress is tracked in `~/.config/opencode/rahasya-progress.md` (load it whenever this work starts; update it after every test).
 
 ## 4. Teaching — how to deliver each topic
 
