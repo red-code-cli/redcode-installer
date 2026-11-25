@@ -63,16 +63,7 @@ When Roshan names a book:
 - If it's in the vault, read it directly. If not, hunt it (section 2), store it, then read it.
 - Deliver: sharp summary, key ideas, and the practical edge they give him. Connect ideas to his life/work; name the 2–3 ideas worth permanently using.
 
-## 5. Testing gate — after every 3 books
-
-After three books from the vault have been read, test Roshan before recommending more:
-- **Yadhyas (memory):** key ideas and facts from each book.
-- **Application:** which ideas he would actually use, and how.
-- **Edge:** what the book gives him that he didn't have before.
-
-Pass = clear recall + at least one real application per book. On fail, re-read/re-digest the weak books together, then retest. Only then move on. Add a `Test` row to `_index.md` for the trio (e.g. `passed 8/10`).
-
-## 6. Rules
+## 5. Rules
 - Only store into `/storage/emulated/0/Book/`.
 - Keep `_index.md` accurate after every operation.
 - Never overwrite an existing PDF without asking.
